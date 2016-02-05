@@ -1,0 +1,11 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorWeb.Tests.dll.config
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorWeb.Tests.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorWeb.Tests.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorWeb.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\bin\Release\CallSelectorWeb.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\obj\Release\CallSelectorWeb.Tests.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb.Tests\obj\Release\CallSelectorWeb.Tests.pdb

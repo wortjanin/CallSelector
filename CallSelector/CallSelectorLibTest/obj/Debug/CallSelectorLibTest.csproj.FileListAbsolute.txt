@@ -1,0 +1,13 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\CallSelectorLibTest.exe
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\CallSelectorLibTest.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\log4net.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\log4net.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\log4net.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\OpenPop.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\bin\Debug\OpenPop.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\obj\Debug\CallSelectorLibTest.exe
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLibTest\obj\Debug\CallSelectorLibTest.pdb

@@ -1,0 +1,14 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorWeb.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorWeb.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\System.Web.Abstractions.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\System.Web.Mvc.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\System.Web.Routing.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\System.Web.Mvc.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Release\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Release\CallSelectorWeb.Properties.Resources.resources
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Release\CallSelectorWeb.csproj.GenerateResource.Cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Release\CallSelectorWeb.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Release\CallSelectorWeb.pdb

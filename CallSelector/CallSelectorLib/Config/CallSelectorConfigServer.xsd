@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CallSelectorConfigServer"
+    targetNamespace="http://chernoivanov.org/SmsDeliveryTest"
+    elementFormDefault="qualified"
+    xmlns="http://chernoivanov.org/SmsDeliveryTest"
+    xmlns:mstns="http://chernoivanov.org/SmsDeliveryTest"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:include schemaLocation="DBServer.xsd"/>
+
+  <!-- Audiofile  ext/directory/sender tuples must be unique (add rule later) -->
+  <xs:complexType name="SenderDirectoryExtension">
+    <xs:attribute name="MailSender" type="xs:string" use="required"/>
+    <xs:attribute name="DirectoryForAudioFiles" type="xs:string" use="required"/>
+    <xs:attribute name="AudioFileExtension" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="AudioFiles">
+    <xs:sequence>
+      <xs:element name="SenderDirectoryExtension" type="SenderDirectoryExtension"
+                  minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CallSelectorConfigServer">
+    <xs:sequence>
+      <xs:element name="DB" type="DB"/>
+      <xs:element name="AudioFiles" type="AudioFiles"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="CallSelectorConfigServer" type="CallSelectorConfigServer"/>
+
+</xs:schema>

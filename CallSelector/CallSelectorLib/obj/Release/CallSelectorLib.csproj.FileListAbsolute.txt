@@ -1,0 +1,6 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLib\bin\Release\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLib\bin\Release\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLib\bin\Release\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLib\obj\Release\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorLib\obj\Release\CallSelectorLib.pdb

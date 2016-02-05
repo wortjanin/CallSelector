@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallSelectorConfig xmlns="http://chernoivanov.org/SmsDeliveryTest">
+	<!--
+      Use only one service per one mailbox.
+      It is also necessary to allow only one sender, sending only callMessages, per mailbox,
+      since messages from all other senders or messages in different format (see MessageRegex element) 
+      will be treated as a spam and deleted permanently.
+    -->
+	<MailServer protocol="Pop3">
+		<Host>pop.1and1.com</Host>
+		<Port>995</Port>
+		<UseSSL>true</UseSSL>
+		<Login>mangorecords@smsdelivery.ru</Login>
+		<Password>djsq23j1s1</Password>
+	</MailServer>
+
+	<DB type="SQLServer">
+		<ConnectionString>
+			Data Source=BORIS\SQLEXPRESS;Initial Catalog=db_call;Integrated Security=True;
+		</ConnectionString>
+	</DB>
+
+	<HostRequestDelayMilliseconds>500</HostRequestDelayMilliseconds>
+	<LogDebug>false</LogDebug>
+	<Sender>auto-mailer@mangotele.com</Sender>
+	<!-- absolute path or relative to installation one (something like C:\Program Files\itpark\CallSelector) 
+       Web server should be configured to get mp3-s from this very directory  
+       (see CallSelectorConfigServer.xml in the CallSelectorWeb project)
+  -->
+	<DirectoryForAudioFiles>C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\Client_Data\MangoTelecomAudioFiles</DirectoryForAudioFiles>
+	<AudioFileExtension>mp3</AudioFileExtension>
+
+	<MessageStructure>
+		<!--  example1:
+	
+		Уважаемый клиент Манго Телеком!
+		В (\d\d:\d\d:\d\d \d\d/\d\d/\d\d\d\d) была произведена запись разговора с абонентом
+		(\d\d\d\d\d\d\d\d\d\d\d), вызванным с номера ([^ ]+).
+		Продолжительность общения: ((\d?\d ч )?(\d?\d мин )?\d?\d сек).
+		Открыв присоединенный к письму файл, Вы можете прослушать записанный разговор
+		Благодарим Вас за пользование услугами Манго Телеком.
+	
+	      example2:
+		  Уважаемый клиент Манго Телеком!
+          Записан разговор звонка, поступившего на номер 74955653205.
+          В 18:05:48 13/03/2012 была произведена запись разговора при вызове на номер 
+          sip:nataliasmirnova@vendosoft.mangosip.ru, от абонента с номером 
+          79199607236.
+          Продолжительность общения: 30 сек.
+          Открыв присоединенный к письму файл, Вы можете прослушать записанный 
+          разговор
+          Благодарим Вас за пользование услугами Манго Телеком.
+		 
+		regex2: 
+		Уважаемый клиент Манго Телеком!
+		Записан разговор звонка, поступившего на номер (\d{11}).
+		В (\d\d:\d\d:\d\d \d\d/\d\d/\d\d\d\d) была произведена запись разговора при вызове на номер
+		([^ ]+), от абонента с номером
+		(\d{11}).
+		Продолжительность общения: ((\d?\d час. )?(\d?\d мин. )?\d?\d сек.)
+		Открыв присоединенный к письму файл, Вы можете прослушать записанный
+		разговор
+		Благодарим Вас за пользование услугами Манго Телеком.
+    -->
+		<MessageRegex>
+			Уважаемый клиент Манго Телеком!
+			В (\d\d:\d\d:\d\d \d\d/\d\d/\d\d\d\d) была произведена запись разговора с абонентом
+			(\d{11}), вызванным с номера ([^ ]+).
+			Продолжительность общения: ((\d?\d час. )?(\d?\d мин. )?\d?\d сек.)
+			Открыв присоединенный к письму файл, Вы можете прослушать записанный разговор
+			Благодарим Вас за пользование услугами Манго Телеком.
+		</MessageRegex>
+
+		<!-- The group numbers must be unique number between 1 and number of complex groups inclusive  -->
+		<RegexGroups>
+			<!-- Operator number="3"/>
+			<Abonent number="4"/>
+			<DateStart number="2" />
+			<TimeInterval number="5"/ -->
+			<Operator number="3"/>
+            <Abonent number="2"/>
+            <DateStart number="1"/>
+            <TimeInterval number="4"/>
+		</RegexGroups>
+
+		<!-- Never place slash, i.e. symbol '/' into the FormatDateStart or FormatDateInterval
+            even if it is present in regex, use dot instead, which is symbol '.' (this is due to strange DateTime behaviour )
+            These elements are used to convert string in all possible cases of date format to C#'s DateTime object 
+         Number of Cases is between 1 and infinity   
+           -->
+		<FormatDateStart>
+			<Case>HH:mm:ss dd.MM.yyyy</Case>
+		</FormatDateStart>
+		<FormatDateInterval>
+			<Case>s сек.</Case>
+			<Case>m мин. s сек.</Case>
+			<Case>H час. s сек.</Case>
+			<Case>H час. m мин. s сек.</Case>
+		</FormatDateInterval>
+	</MessageStructure>
+</CallSelectorConfig>

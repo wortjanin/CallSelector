@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CallSelectorConfig"
+    targetNamespace="http://chernoivanov.org/SmsDeliveryTest"
+    elementFormDefault="qualified"
+    xmlns="http://chernoivanov.org/SmsDeliveryTest"
+    xmlns:mstns="http://chernoivanov.org/SmsDeliveryTest"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:include schemaLocation="DBServer.xsd"/>
+
+  <xs:simpleType name="Protocol">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Pop3"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="MailServer">
+    <xs:sequence>
+      <xs:element name="Host" type="xs:string"/>
+      <xs:element name="Port" type="xs:integer"/>
+      <xs:element name="UseSSL" type="xs:boolean"/>
+
+      <xs:element name="Login" type="xs:string"/>
+      <xs:element name="Password" type="xs:string"/>
+    </xs:sequence>
+
+    <xs:attribute name="protocol" type="Protocol" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="DateFormat">
+    <!-- Never place slash, i.e. symbol '/' into the DateFormat
+            even if it is present in regex, 
+            use dot instead, which is symbol '.'
+            This element is used to convert string in all possible cases of date format to DateTime
+             (add rule later) 
+           -->
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element name="Case" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Index">
+    <xs:attribute name="number" type="xs:integer"/>
+  </xs:complexType>
+
+  <xs:complexType name="RegexGroups">
+    <!-- 
+              RegexGroups must have unique number attributes
+             (add rule later) 
+           -->
+    <xs:sequence>
+      <xs:element name="Operator" type="Index"/>
+      <xs:element name="Abonent" type="Index"/>
+      <xs:element name="DateStart" type="Index"/>
+      <xs:element name="TimeInterval" type="Index"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="MessageStructure">
+    <xs:sequence>
+      <xs:element name="MessageRegex" type="xs:string"/>
+
+      <xs:element name="RegexGroups" type="RegexGroups"/>
+
+      <xs:element name="FormatDateStart" type="DateFormat"/>
+      <xs:element name="FormatDateInterval" type="DateFormat"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="CallSelectorConfig">
+    <xs:sequence>
+      <xs:element name="MailServer" type="MailServer"/>
+      <xs:element name="DB" type="DB"/>
+      
+      <xs:element name="HostRequestDelayMilliseconds" type="xs:integer"/>
+      <xs:element name="LogDebug" type="xs:boolean"/>
+      <xs:element name="Sender" type="xs:string"/>
+
+      <xs:element name="DirectoryForAudioFiles" type="xs:string"/>
+      <xs:element name="AudioFileExtension" type="xs:string"/>
+
+      <xs:element name="MessageStructure" type="MessageStructure"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="CallSelectorConfig" type="CallSelectorConfig"/>
+             
+</xs:schema>

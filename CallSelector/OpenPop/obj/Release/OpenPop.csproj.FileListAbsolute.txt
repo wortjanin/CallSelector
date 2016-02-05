@@ -1,0 +1,3 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\bin\Release\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\obj\Release\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\obj\Release\OpenPop.dll

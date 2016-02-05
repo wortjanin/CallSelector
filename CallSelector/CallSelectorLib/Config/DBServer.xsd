@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchemaPop3Server"
+    targetNamespace="http://chernoivanov.org/SmsDeliveryTest"
+    elementFormDefault="qualified"
+    xmlns="http://chernoivanov.org/SmsDeliveryTest"
+    xmlns:mstns="http://chernoivanov.org/SmsDeliveryTest"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:simpleType name="DBType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SQLServer"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:complexType name="DB">
+    <xs:sequence>
+      <xs:element name="ConnectionString" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="DBType" use="required"/>
+  </xs:complexType>
+</xs:schema>

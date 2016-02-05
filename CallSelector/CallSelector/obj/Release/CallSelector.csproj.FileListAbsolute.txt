@@ -1,0 +1,11 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Release\CallSelector.exe
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Release\CallSelector.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Release\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Release\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Release\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Release\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Release\CallSelector.CallSelectorService.resources
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Release\CallSelector.ProjectInstaller.resources
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Release\CallSelector.csproj.GenerateResource.Cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Release\CallSelector.exe
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Release\CallSelector.pdb

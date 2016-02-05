@@ -1,0 +1,6 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\bin\Debug\OpenPop.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\bin\Debug\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\bin\Debug\OpenPop.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\obj\Debug\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\OpenPop\obj\Debug\OpenPop.pdb

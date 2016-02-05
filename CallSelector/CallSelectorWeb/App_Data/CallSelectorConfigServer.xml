@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CallSelectorConfigServer xmlns="http://chernoivanov.org/SmsDeliveryTest">
+  <DB type="SQLServer">
+    <ConnectionString>
+		Data Source=BORIS\SQLEXPRESS;Initial Catalog=db_call;Integrated Security=True;
+	</ConnectionString>
+  </DB>
+  
+  <!-- 
+      Audiofile  ext/directory/sender tuples must be unique 
+      paths must be relative (
+         starting from ../../Client_Data if they are in Client_Data in this project 
+         for ordinal View and Controller)
+  -->
+  <AudioFiles>
+    <SenderDirectoryExtension  
+      AudioFileExtension="mp3"
+      DirectoryForAudioFiles="~/Client_Data/MangoTelecomAudioFiles" 
+      MailSender="auto-mailer@mangotele.com"/>
+	  <SenderDirectoryExtension
+         AudioFileExtension="mp3"
+         DirectoryForAudioFiles="~/Client_Data/MangoTelecomAudioFiles"
+         MailSender="achernoivanov@gmail.com"/>
+
+  </AudioFiles>
+</CallSelectorConfigServer>
+

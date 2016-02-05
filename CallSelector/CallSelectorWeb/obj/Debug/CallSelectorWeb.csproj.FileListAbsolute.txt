@@ -1,0 +1,12 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorWeb.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorWeb.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\OpenPop.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\OpenPop.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\bin\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Debug\CallSelectorWeb.Properties.Resources.resources
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Debug\CallSelectorWeb.csproj.GenerateResource.Cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Debug\CallSelectorWeb.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorWeb\obj\Debug\CallSelectorWeb.pdb

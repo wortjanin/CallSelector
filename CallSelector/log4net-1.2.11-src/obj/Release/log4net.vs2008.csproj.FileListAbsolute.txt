@@ -1,0 +1,4 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\build\bin\net\1.0\release\log4net.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\build\bin\net\1.0\release\log4net.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\log4net-1.2.11-src\obj\Release\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\log4net-1.2.11-src\obj\Release\log4net.dll

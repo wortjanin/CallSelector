@@ -1,0 +1,6 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\build\bin\net\2.0\debug\log4net.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\build\bin\net\2.0\debug\log4net.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\build\bin\net\2.0\debug\log4net.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\log4net-1.2.11-src\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\log4net-1.2.11-src\obj\Debug\log4net.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\log4net-1.2.11-src\obj\Debug\log4net.pdb

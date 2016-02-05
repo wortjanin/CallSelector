@@ -1,0 +1,13 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\CallSelector.exe
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\CallSelector.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\CallSelectorLib.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\OpenPop.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\CallSelectorLib.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\OpenPop.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\bin\Debug\OpenPop.xml
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Debug\CallSelector.CallSelectorService.resources
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Debug\CallSelector.ProjectInstaller.resources
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Debug\CallSelector.csproj.GenerateResource.Cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Debug\CallSelector.exe
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelector\obj\Debug\CallSelector.pdb

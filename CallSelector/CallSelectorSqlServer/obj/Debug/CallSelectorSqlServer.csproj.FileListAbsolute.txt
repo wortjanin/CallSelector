@@ -1,0 +1,5 @@
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorSqlServer\bin\Debug\CallSelectorSqlServer.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorSqlServer\bin\Debug\CallSelectorSqlServer.pdb
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorSqlServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorSqlServer\obj\Debug\CallSelectorSqlServer.dll
+C:\Users\0\Desktop\CallSelector\CallSelector\CallSelectorSqlServer\obj\Debug\CallSelectorSqlServer.pdb
