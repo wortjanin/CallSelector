@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CallSelectorConfigServer xmlns="http://chernoivanov.org/SmsDeliveryTest">
+<CallSelectorConfigServer xmlns="http://ivanov.org/SmsDeliveryTest">
   <DB type="SQLServer">
     <ConnectionString>
 		Data Source=BORIS\SQLEXPRESS;Initial Catalog=db_call;Integrated Security=True;
@@ -16,11 +16,11 @@
     <SenderDirectoryExtension  
       AudioFileExtension="mp3"
       DirectoryForAudioFiles="~/Client_Data/MangoTelecomAudioFiles" 
-      MailSender="auto-mailer@mangotele.com"/>
+      MailSender="auto-mailer@somewheresip.com"/>
 	  <SenderDirectoryExtension
          AudioFileExtension="mp3"
          DirectoryForAudioFiles="~/Client_Data/MangoTelecomAudioFiles"
-         MailSender="achernoivanov@gmail.com"/>
+         MailSender="aivanov@somewhere.com"/>
 
   </AudioFiles>
 </CallSelectorConfigServer>

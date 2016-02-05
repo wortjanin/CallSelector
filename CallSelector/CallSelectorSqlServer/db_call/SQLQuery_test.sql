@@ -24,28 +24,28 @@ GO
 
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 19:57:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 19:57:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 20:07:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 20:07:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 20:17:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 20:17:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 20:27:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 20:27:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 20:37:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 20:37:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 20:47:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 20:47:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 20:57:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 20:57:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 INSERT INTO phone_call(id_operator, phone, date_start, date_interval, sender_mail, file_name)
 VALUES 
-(1,	79199607236,	'13/03/2012 21:07:48.000',	'00:01:30',	'achernoivanov@gmail.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
+(1,	79199607236,	'13/03/2012 21:07:48.000',	'00:01:30',	'somebody@somewhere.com',	'201203132048489475_record_6Feb2012_11h15m18s.mp3')
 
 
 

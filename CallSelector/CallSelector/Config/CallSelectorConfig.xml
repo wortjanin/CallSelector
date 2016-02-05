@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CallSelectorConfig xmlns="http://chernoivanov.org/SmsDeliveryTest">
+<CallSelectorConfig xmlns="http://ivanov.org/SmsDeliveryTest">
 	<!--
       Use only one service per one mailbox.
       It is also necessary to allow only one sender, sending only callMessages, per mailbox,
@@ -10,8 +10,8 @@
 		<Host>pop.1and1.com</Host>
 		<Port>995</Port>
 		<UseSSL>true</UseSSL>
-		<Login>mangorecords@smsdelivery.ru</Login>
-		<Password>djsq23j1s1</Password>
+		<Login>somewheresiprecords@mycompany.ru</Login>
+		<Password>a4Qwe123Rfd</Password>
 	</MailServer>
 
 	<DB type="SQLServer">
@@ -22,7 +22,7 @@
 
 	<HostRequestDelayMilliseconds>500</HostRequestDelayMilliseconds>
 	<LogDebug>false</LogDebug>
-	<Sender>auto-mailer@mangotele.com</Sender>
+	<Sender>auto-mailer@somewheresip.com</Sender>
 	<!-- absolute path or relative to installation one (something like C:\Program Files\itpark\CallSelector) 
        Web server should be configured to get mp3-s from this very directory  
        (see CallSelectorConfigServer.xml in the CallSelectorWeb project)
